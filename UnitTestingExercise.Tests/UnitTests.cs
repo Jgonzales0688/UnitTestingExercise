@@ -33,7 +33,7 @@ namespace UnitTestingExercise.Tests
         [InlineData(3, 3, 0)]
         [InlineData(8, 2, 6)]
         [InlineData(2, 1, 1)]
-        [InlineData(2, 9, 7)]//Add test data <-------
+        [InlineData(9, 2, 7)]//Add test data <-------
         public void SubtractTest(int minuend, int subtrhend, int expected)
         {
             //Start Step 5 here:
